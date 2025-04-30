@@ -1,4 +1,4 @@
-.pink-line {
+.white-line {
     border: 1px solid #ffffff;
     margin: 20px 0;
 }
@@ -21,7 +21,7 @@ body {
 .header-image {
     display: block;
     width: 100%;
-    max-width: 550px;
+    max-width: 560px;
     height: auto;
     margin: 0 auto;
     text-align: center;
@@ -80,7 +80,9 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #fce4ec;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     resize: none;
 }
 
