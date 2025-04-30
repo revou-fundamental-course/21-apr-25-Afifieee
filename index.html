@@ -4,29 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Konversi Suhu - Yama</title>
+    <title>Website Konversi Suhu - Afifieee</title>
 
     <!-- CSS External -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- Gambar Header -->
+    <img src="assets/Afifi1.png" alt="Header Image" class="header-image">
+
     <!-- Header Content -->
     <header>
-        <h1>Website Konversi Suhu - Yama</h1>
+        <h1>Website Konversi Suhu - Afifieee</h1>
     </header>
 
     <!-- Main Content -->
     <main>
         <!-- Introduction -->
         <section>
-            <!-- Dummy Intro -->
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Masukkan suhu derajat Celsius (&deg;C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).</p>
         </section>
 
         <!-- Form Konversi Suhu -->
@@ -39,11 +36,10 @@
                 <textarea id="konversi-input"></textarea>
             </div>
 
-            <!-- Form Action -->
             <div class="section-item">
-                <button class="bg-1">Konversi</button>
-                <button class="bg-2">Reset</button>
-                <button class="bg-3">Reverse</button>
+                <button type="button" class="bg-1" id="konversi-btn">Konversi</button>
+                <button type="button" class="bg-2" id="reset-btn">Reset</button>
+                <button type="button" class="bg-3" id="reverse-btn">Reverse</button>
             </div>
         </form>
 
@@ -71,35 +67,35 @@
 
         <!-- Informasi Tambahan -->
         <section>
+            <p class="fahrenheit-celsius">Fahrenheit ke Celsius</p>
+
             <header>
                 <h1>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
             </header>
 
-            <hr />
+            <hr class="pink-line" />
 
-            <!-- Konten Informasi -->
             <article>
-                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F)</p>
+                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="formula">S</span> dalam derajat Celsius (&deg;C) kali 9/5 tambah 32.</p>
 
-                <!-- Formula -->
                 <div class="formula">
                     S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32
                 </div>
-                <div>
-                    atau
-                </div>
-
+                <div>atau</div>
                 <div class="formula">
-                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1,8) + 32
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1.8) + 32
                 </div>
             </article>
         </section>
+
+        <footer>
+            <p>&copy; 2025 Afifieee. All rights reserved.</p>
+        </footer>
     </main>
 
-    <!-- Footer Content -->
-    <footer>
-        <p>&copy; 2025 Yama. All rights reserved.</p>
-    </footer>
+    <!-- JavaScript External -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
+

@@ -1,35 +1,71 @@
-body {
-    padding: 32px;
-    text-align: center;
-    font-family: math;
+.pink-line {
+    border: 1px solid #ffffff;
+    margin: 20px 0;
 }
 
-p,
-div {
-    text-align: justify;
+.fahrenheit-celsius {
+    color: #d6336c; 
+    text-align: center; 
+    font-size: 15px; 
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+body {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Comic Sans MS', 'cursive', sans-serif; 
+    background-color: #f8d7da;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p, div {
+    text-align: center;
 }
 
 button {
-    border: none;
-    padding: 8px;
+    border: 2px solid #d6336c;
+    padding: 10px;
     border-radius: 8px;
+    background-color: #ff6f91;
+    color: rgb(0, 0, 0);
+    font-family: 'Comic Sans MS', 'cursive', sans-serif; 
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+button:hover {
+    background-color: #e65175;
+    border-color: #ffcad4;
 }
 
 .bg-1 {
-    background-color: antiquewhite;
+    background-color: #fde2e4;
 }
 
 .bg-2 {
-    background-color: lightblue;
+    background-color: #ffcad4;
 }
 
 .bg-3 {
-    background-color: lightsalmon;
+    background-color: #ffb3c6;
 }
 
 .section-content {
     margin: 32px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .section-item {
@@ -38,12 +74,12 @@ button {
 
 textarea {
     width: 100%;
-    height: 150px;
+    height: 160px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: #fce4ec;
     font-size: 16px;
     resize: none;
 }
@@ -51,4 +87,6 @@ textarea {
 .formula {
     font-style: italic;
     font-size: xx-large;
+    color: #d6336c;
 }
+
